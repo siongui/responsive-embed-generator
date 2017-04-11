@@ -71,7 +71,8 @@ References
 
 .. [4] `[Golang] Regular Expression Named Group - Extract Metadata from File Path <https://siongui.github.io/2016/02/20/go-regexp-named-group-match-path-metadata/>`_
 .. [5] `go - How to perform division in golang - Stack Overflow <http://stackoverflow.com/questions/32815400/how-to-perform-division-in-golang>`_
-.. [6] `GopherJS - A compiler from Go to JavaScript <http://www.gopherjs.org/>`_
+.. [6] `[Makefile] Publish to GitHub Pages Automatically <https://siongui.github.io/2017/03/31/makefile-publish-to-github-pages-automatically/>`_
+.. [7] `GopherJS - A compiler from Go to JavaScript <http://www.gopherjs.org/>`_
        (`GitHub <https://github.com/gopherjs/gopherjs>`__,
        `GopherJS Playground <http://www.gopherjs.org/playground/>`_,
        |godoc|)
