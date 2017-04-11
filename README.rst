@@ -72,7 +72,15 @@ References
 .. [4] `[Golang] Regular Expression Named Group - Extract Metadata from File Path <https://siongui.github.io/2016/02/20/go-regexp-named-group-match-path-metadata/>`_
 .. [5] `go - How to perform division in golang - Stack Overflow <http://stackoverflow.com/questions/32815400/how-to-perform-division-in-golang>`_
 .. [6] `[Makefile] Publish to GitHub Pages Automatically <https://siongui.github.io/2017/03/31/makefile-publish-to-github-pages-automatically/>`_
-.. [7] `GopherJS - A compiler from Go to JavaScript <http://www.gopherjs.org/>`_
+.. [7] | `responsive textarea - Google search <https://www.google.com/search?q=responsive+textarea>`_
+       | `responsive textarea - DuckDuckGo search <https://duckduckgo.com/?q=responsive+textarea>`_
+       | `responsive textarea - Ecosia search <https://www.ecosia.org/search?q=responsive+textarea>`_
+       | `responsive textarea - Qwant search <https://www.qwant.com/?q=responsive+textarea>`_
+       | `responsive textarea - Bing search <https://www.bing.com/search?q=responsive+textarea>`_
+       | `responsive textarea - Yahoo search <https://search.yahoo.com/search?p=responsive+textarea>`_
+       | `responsive textarea - Baidu search <https://www.baidu.com/s?wd=responsive+textarea>`_
+       | `responsive textarea - Yandex search <https://www.yandex.com/search/?text=responsive+textarea>`_
+.. [8] `GopherJS - A compiler from Go to JavaScript <http://www.gopherjs.org/>`_
        (`GitHub <https://github.com/gopherjs/gopherjs>`__,
        `GopherJS Playground <http://www.gopherjs.org/playground/>`_,
        |godoc|)
