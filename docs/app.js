@@ -36715,8 +36715,10 @@ $packages["main"] = (function() {
 	regen = $packages["github.com/siongui/responsive-embed-generator"];
 	sliceType = $sliceType($emptyInterface);
 	main = function() {
-		var $ptr, i;
+		var $ptr, cc, hc, i;
 		i = godom.Document.QuerySelector("#oricode");
+		hc = godom.Document.QuerySelector("#htmlcode");
+		cc = godom.Document.QuerySelector("#csscode");
 		godom.Document.QuerySelector("#submit").AddEventListener("click", (function $b(e) {
 			var $ptr, _r, _tuple, css, e, err, html, $s, $r;
 			/* */ $s = 0; var $f, $c = false; if (this !== undefined && this.$blk !== undefined) { $f = this; $c = true; $ptr = $f.$ptr; _r = $f._r; _tuple = $f._tuple; css = $f.css; e = $f.e; err = $f.err; html = $f.html; $s = $f.$s; $r = $f.$r; } s: while (true) { switch ($s) { case 0:
@@ -36726,12 +36728,33 @@ $packages["main"] = (function() {
 			css = _tuple[1];
 			err = _tuple[2];
 			if (!($interfaceIsEqual(err, $ifaceNil))) {
+				hc.SetValue("Fail to generate code");
 				$s = -1; return;
 			}
-			console.log(html);
-			console.log(css);
+			hc.SetValue(html);
+			cc.SetValue(css);
 			$s = -1; return;
 			/* */ } return; } if ($f === undefined) { $f = { $blk: $b }; } $f.$ptr = $ptr; $f._r = _r; $f._tuple = _tuple; $f.css = css; $f.e = e; $f.err = err; $f.html = html; $f.$s = $s; $f.$r = $r; return $f;
+		}), new sliceType([]));
+		godom.Document.QuerySelector("#copyhtml").AddEventListener("click", (function(e) {
+			var $ptr, e, isSuccessful;
+			hc.Object.select();
+			isSuccessful = !!(godom.Document.Object.execCommand($externalize("copy", $String)));
+			if (isSuccessful) {
+				hc.SetValue("Succeed to copy HTML code");
+			} else {
+				hc.SetValue("Fail to copy HTML code");
+			}
+		}), new sliceType([]));
+		godom.Document.QuerySelector("#copycss").AddEventListener("click", (function(e) {
+			var $ptr, e, isSuccessful;
+			cc.Object.select();
+			isSuccessful = !!(godom.Document.Object.execCommand($externalize("copy", $String)));
+			if (isSuccessful) {
+				cc.SetValue("Succeed to copy CSS code");
+			} else {
+				cc.SetValue("Fail to copy CSS code");
+			}
 		}), new sliceType([]));
 	};
 	$init = function() {
