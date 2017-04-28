@@ -42,7 +42,7 @@ type YouTubeIframeInfo struct {
 	h           float64
 }
 
-func TmplToString(tmpl string, data interface{}) (s string, err error) {
+func TemplateToString(tmpl string, data interface{}) (s string, err error) {
 	t, err := template.New("").Parse(tmpl)
 	if err != nil {
 		return
@@ -91,17 +91,17 @@ func GetResponsiveYouTubeCode(iframecode string) (html, css string, err error) {
 	yii.ar100 = yii.h * 100 / yii.w
 	yii.AspectRatio = strconv.FormatFloat(yii.ar100, 'f', -1, 64) + "%"
 
-	yii.ClassName, err = TmplToString(youtubeClassName, yii)
+	yii.ClassName, err = TemplateToString(youtubeClassName, yii)
 	if err != nil {
 		return
 	}
 
-	html, err = TmplToString(youtubeHtmlTmpl, yii)
+	html, err = TemplateToString(youtubeHtmlTmpl, yii)
 	if err != nil {
 		return
 	}
 
-	css, err = TmplToString(youtubeCssTmpl, yii)
+	css, err = TemplateToString(youtubeCssTmpl, yii)
 	if err != nil {
 		return
 	}

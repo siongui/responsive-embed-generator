@@ -80,10 +80,23 @@ References
        | `responsive textarea - Yahoo search <https://search.yahoo.com/search?p=responsive+textarea>`_
        | `responsive textarea - Baidu search <https://www.baidu.com/s?wd=responsive+textarea>`_
        | `responsive textarea - Yandex search <https://www.yandex.com/search/?text=responsive+textarea>`_
+
 .. [8] `GopherJS - A compiler from Go to JavaScript <http://www.gopherjs.org/>`_
        (`GitHub <https://github.com/gopherjs/gopherjs>`__,
        `GopherJS Playground <http://www.gopherjs.org/playground/>`_,
        |godoc|)
+
+.. [9] | `responsive embed iframe - Google search <https://www.google.com/search?q=responsive+embed+iframe>`_
+       | `responsive embed iframe - DuckDuckGo search <https://duckduckgo.com/?q=responsive+embed+iframe>`_
+       | `responsive embed iframe - Ecosia search <https://www.ecosia.org/search?q=responsive+embed+iframe>`_
+       | `responsive embed iframe - Qwant search <https://www.qwant.com/?q=responsive+embed+iframe>`_
+       | `responsive embed iframe - Bing search <https://www.bing.com/search?q=responsive+embed+iframe>`_
+       | `responsive embed iframe - Yahoo search <https://search.yahoo.com/search?p=responsive+embed+iframe>`_
+       | `responsive embed iframe - Baidu search <https://www.baidu.com/s?wd=responsive+embed+iframe>`_
+       | `responsive embed iframe - Yandex search <https://www.yandex.com/search/?text=responsive+embed+iframe>`_
+       | `Making Embedded Content Work In A Responsive iFrame <https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/>`_
+       | `Responsive IFrames — The Right Way! | Ben Marshall <https://benmarshall.me/responsive-iframes/>`_
+       | `embedresponsively.com <http://embedresponsively.com/>`_
 
 .. _Go: https://golang.org/
 .. _JavaScript: https://www.google.com/search?q=JavaScript
