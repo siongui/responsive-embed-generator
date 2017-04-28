@@ -6,7 +6,7 @@ export GOPATH=$(realpath .)
 export PATH := $(GOROOT)/bin:$(GOPATH)/bin:$(PATH)
 
 PKG=github.com/siongui/responsive-embed-generator
-GHPAHE_DIR=docs
+GHPAHE_DIR=/tmp/responsive-embed-generator
 
 devserver: test local js
 	@echo "\033[92mDevelopment Server Running ...\033[0m"
@@ -33,12 +33,12 @@ fmt:
 
 publish:
 	@echo "\033[92mPublish to GitHub Pages ...\033[0m"
-	[ -d $(GHPAHE_DIR) ] || mkdir -p $(GHPAHE_DIR)
+	[ ! -d $(GHPAHE_DIR) ] || rm -rf $(GHPAHE_DIR)
+	mkdir -p $(GHPAHE_DIR)
 	cp gopherjs/index.html $(GHPAHE_DIR)/index.html
 	cp gopherjs/app.js $(GHPAHE_DIR)/app.js
-	git add $(GHPAHE_DIR)/
-	git commit -m "publish to GitHub Pages"
-	git push
+	ghp-import $(GHPAHE_DIR)
+	git push origin gh-pages
 
 install:
 	@echo "\033[92mInstalling GopherJS ...\033[0m"
