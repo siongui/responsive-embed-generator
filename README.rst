@@ -22,11 +22,11 @@ Responsive Embed Generator
 
 
 HTML/CSS code generator for responsively embedding YouTube_ video,
-`Google Maps`_, or `Google Forms`_.
+Facebook Photo, `Google Maps`_, or `Google Forms`_.
 
 Tested on:
 
-- `Ubuntu Linux 16.10`_
+- `Ubuntu Linux 17.04`_
 - `Go 1.8.1`_
 
 
@@ -98,13 +98,15 @@ References
        | `Responsive IFrames — The Right Way! | Ben Marshall <https://benmarshall.me/responsive-iframes/>`_
        | `embedresponsively.com <http://embedresponsively.com/>`_
 
+.. [10] `Embedded Posts - Social Plugins - Documentation - Facebook for Developers <https://developers.facebook.com/docs/plugins/embedded-posts>`_
+
 .. _Go: https://golang.org/
 .. _JavaScript: https://www.google.com/search?q=JavaScript
 .. _YouTube: https://www.google.com/search?q=YouTube
 .. _Google Maps: https://www.google.com/search?q=Google+Maps
 .. _Google Forms: https://www.google.com/search?q=Google+Forms
 .. _GopherJS: http://www.gopherjs.org/
-.. _Ubuntu Linux 16.10: http://releases.ubuntu.com/16.10/
+.. _Ubuntu Linux 17.04: http://releases.ubuntu.com/17.04/
 .. _Go 1.8.1: https://golang.org/dl/
 .. _UNLICENSE: http://unlicense.org/
 
